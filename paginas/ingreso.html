@@ -1,0 +1,31 @@
+<!--Creado por - ISAAC TOVAR-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ingresar Usuario</title>
+    <style>*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}</style>
+</head>
+<body bgcolor="#D0EBFF">
+    <center><h1>Alta de Estudiantes</h1></center>
+    <center>
+        <form action="ingreso.php" method="POST">
+                    Ingrese Nombre:
+                    <input type="text" name="nombre" align="center">
+                    <br><br>
+                    Ingrese su E-mail:
+                    <input type="text" name="mail">
+                    <br><br>
+                    Seleccione su curso:
+                    <select name="codigocurso">
+                        <option value="1">PHP</option>
+                        <option value="2">ASP</option>
+                        <option value="3">JSP</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Registrar">
+                    <input type="reset" value="Borrar información">
+        </form>
+    </center>
+</body>
+</html>
